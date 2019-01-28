@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67551c31-d802-4858-b4b2-3933d96c9e89" name="Default Changelist" comment="" />
+    <list default="true" id="67551c31-d802-4858-b4b2-3933d96c9e89" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JSAQ3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/SendToAFriend.feature" beforeDir="false" afterPath="$PROJECT_DIR$/resources/SendToAFriend.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/intive/patronage/Steps/NewsletterStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/intive/patronage/Steps/NewsletterStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/intive/patronage/Steps/SendToAFriendStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/intive/patronage/Steps/SendToAFriendStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/intive/patronage/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/intive/patronage/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/intive/patronage/pages/MainPage2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/intive/patronage/pages/MainPage2.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,13 +18,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="repo" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/SendToAFriend.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="153">
+              <caret line="9" column="103" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="103" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/Newsletter.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -24,10 +44,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/intive/patronage/Steps/SendToAFriendStep.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+            <state relative-caret-position="177">
+              <caret line="78" column="51" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2696#2697#0" expanded="true" />
+                <element signature="e#2720#2721#0" expanded="true" />
+                <element signature="e#3154#3155#0" expanded="true" />
+                <element signature="e#3178#3179#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -36,20 +60,65 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/intive/patronage/pages/MainPage2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="60" column="26" lean-forward="true" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+            <state relative-caret-position="680">
+              <caret line="87" column="33" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1516#1517#0" expanded="true" />
-                <element signature="e#1558#1559#0" expanded="true" />
-                <element signature="e#1598#1599#0" expanded="true" />
-                <element signature="e#1630#1631#0" expanded="true" />
-                <element signature="e#1672#1673#0" expanded="true" />
-                <element signature="e#1705#1706#0" expanded="true" />
-                <element signature="e#1781#1782#0" expanded="true" />
-                <element signature="e#1849#1850#0" expanded="true" />
-                <element signature="e#1806#1807#0" expanded="true" />
-                <element signature="e#1834#1835#0" expanded="true" />
+                <element signature="e#1565#1566#0" expanded="true" />
+                <element signature="e#1607#1608#0" expanded="true" />
+                <element signature="e#1647#1648#0" expanded="true" />
+                <element signature="e#1679#1680#0" expanded="true" />
+                <element signature="e#1721#1722#0" expanded="true" />
+                <element signature="e#1754#1755#0" expanded="true" />
+                <element signature="e#1793#1794#0" expanded="true" />
+                <element signature="e#1861#1862#0" expanded="true" />
+                <element signature="e#1896#1897#0" expanded="true" />
+                <element signature="e#1924#1925#0" expanded="true" />
+                <element signature="e#2051#2052#0" expanded="true" />
+                <element signature="e#2081#2082#0" expanded="true" />
+                <element signature="e#2334#2335#0" expanded="true" />
+                <element signature="e#2375#2376#0" expanded="true" />
+                <element signature="e#2426#2427#0" expanded="true" />
+                <element signature="e#2469#2470#0" expanded="true" />
+                <element signature="e#2723#2724#0" expanded="true" />
+                <element signature="e#2756#2757#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/intive/patronage/Steps/NewsletterStep.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="53" />
+              <folding>
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#813#814#0" expanded="true" />
+                <element signature="e#869#870#0" expanded="true" />
+                <element signature="e#1711#1712#0" expanded="true" />
+                <element signature="e#1768#1769#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/intive/patronage/pages/MainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1092#1093#0" expanded="true" />
+                <element signature="e#1134#1135#0" expanded="true" />
+                <element signature="e#1203#1204#0" expanded="true" />
+                <element signature="e#1250#1251#0" expanded="true" />
+                <element signature="e#1299#1300#0" expanded="true" />
+                <element signature="e#1351#1352#0" expanded="true" />
+                <element signature="e#1676#1677#0" expanded="true" />
+                <element signature="e#1728#1729#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,6 +133,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>User enters e-mail address of his/her friend asha7788@gmail.com</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -77,8 +154,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/intive/patronage/Steps/Hooks.java" />
         <option value="$PROJECT_DIR$/resources/Newsletter.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/intive/patronage/Steps/NewsletterStep.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/intive/patronage/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/intive/patronage/pages/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/intive/patronage/TestRunner.java" />
         <option value="$PROJECT_DIR$/resources/SendToAFriend.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/intive/patronage/pages/MainPage2.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/intive/patronage/Steps/SendToAFriendStep.java" />
@@ -91,6 +168,7 @@
     <option name="width" value="1503" />
     <option name="height" value="960" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -100,43 +178,48 @@
         <subPane>
           <expand>
             <path>
-              <item name="JSAQ3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSAQ3" type="462c0819:PsiDirectoryNode" />
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JSAQ3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSAQ3" type="462c0819:PsiDirectoryNode" />
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repo" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JSAQ3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSAQ3" type="462c0819:PsiDirectoryNode" />
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repo" type="462c0819:PsiDirectoryNode" />
+              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JSAQ3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSAQ3" type="462c0819:PsiDirectoryNode" />
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JSAQ3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSAQ3" type="462c0819:PsiDirectoryNode" />
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JSAQ3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSAQ3" type="462c0819:PsiDirectoryNode" />
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="patronage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JSAQ3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSAQ3" type="462c0819:PsiDirectoryNode" />
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -144,8 +227,8 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JSAQ3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSAQ3" type="462c0819:PsiDirectoryNode" />
+              <item name="repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -156,13 +239,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548684798288" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/Steps" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548700282739" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -228,54 +311,55 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRunner_(1) - 2019.01.28 at 14h 38m 58s.xml">
+    <history-entry file="TestRunner_(1) - 2019.01.28 at 18h 36m 50s.xml">
       <configuration name="TestRunner (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner_(1) - 2019.01.28 at 14h 39m 40s.xml">
+    <history-entry file="TestRunner_(1) - 2019.01.28 at 18h 38m 35s.xml">
       <configuration name="TestRunner (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner_(1) - 2019.01.28 at 14h 51m 58s.xml">
+    <history-entry file="TestRunner_(1) - 2019.01.28 at 18h 39m 48s.xml">
       <configuration name="TestRunner (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner_(1) - 2019.01.28 at 14h 54m 00s.xml">
+    <history-entry file="TestRunner_(1) - 2019.01.28 at 18h 42m 06s.xml">
       <configuration name="TestRunner (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner_(1) - 2019.01.28 at 14h 56m 55s.xml">
+    <history-entry file="TestRunner_(1) - 2019.01.28 at 18h 46m 29s.xml">
       <configuration name="TestRunner (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner_(1) - 2019.01.28 at 15h 34m 36s.xml">
+    <history-entry file="TestRunner_(1) - 2019.01.28 at 18h 53m 28s.xml">
       <configuration name="TestRunner (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner_(1) - 2019.01.28 at 15h 41m 15s.xml">
+    <history-entry file="TestRunner_(1) - 2019.01.28 at 19h 06m 17s.xml">
       <configuration name="TestRunner (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner_(1) - 2019.01.28 at 15h 51m 04s.xml">
+    <history-entry file="TestRunner_(1) - 2019.01.28 at 19h 18m 57s.xml">
       <configuration name="TestRunner (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner_(1) - 2019.01.28 at 15h 51m 29s.xml">
+    <history-entry file="TestRunner_(1) - 2019.01.28 at 19h 19m 48s.xml">
       <configuration name="TestRunner (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner_(1) - 2019.01.28 at 15h 52m 42s.xml">
+    <history-entry file="TestRunner_(1) - 2019.01.28 at 19h 22m 02s.xml">
       <configuration name="TestRunner (1)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Favorites" order="3" sideWeight="0.502907" side_tool="true" weight="0.22995952" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.22591093" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.49709302" visible="true" weight="0.22995952" />
+      <window_info id="Structure" order="6" sideWeight="0.502907" side_tool="true" weight="0.22995952" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.12966253" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.38898757" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.38898757" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.35523978" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -388,36 +472,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.8.1/selenium-support-3.8.1.jar!/org/openqa/selenium/support/How.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/Newsletter.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/intive/patronage/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/intive/patronage/pages/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1092#1093#0" expanded="true" />
-            <element signature="e#1134#1135#0" expanded="true" />
-            <element signature="e#1203#1204#0" expanded="true" />
-            <element signature="e#1250#1251#0" expanded="true" />
-            <element signature="e#1299#1300#0" expanded="true" />
-            <element signature="e#1351#1352#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.8.1/selenium-support-3.8.1.jar!/org/openqa/selenium/support/ui/ExpectedConditions.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
@@ -425,30 +479,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/intive/patronage/Steps/NewsletterStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#869#870#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/Utils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
@@ -487,39 +521,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar!/cucumber/api/java/en/Then.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/intive/patronage/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/Utils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/SendToAFriend.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        <state relative-caret-position="153">
+          <caret line="9" column="103" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/Newsletter.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/intive/patronage/Steps/NewsletterStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="53" />
+          <folding>
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#1711#1712#0" expanded="true" />
+            <element signature="e#1768#1769#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/intive/patronage/pages/MainPage2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="60" column="26" lean-forward="true" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+        <state relative-caret-position="680">
+          <caret line="87" column="33" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1516#1517#0" expanded="true" />
-            <element signature="e#1558#1559#0" expanded="true" />
-            <element signature="e#1598#1599#0" expanded="true" />
-            <element signature="e#1630#1631#0" expanded="true" />
-            <element signature="e#1672#1673#0" expanded="true" />
-            <element signature="e#1705#1706#0" expanded="true" />
-            <element signature="e#1781#1782#0" expanded="true" />
-            <element signature="e#1849#1850#0" expanded="true" />
-            <element signature="e#1806#1807#0" expanded="true" />
-            <element signature="e#1834#1835#0" expanded="true" />
+            <element signature="e#1565#1566#0" expanded="true" />
+            <element signature="e#1607#1608#0" expanded="true" />
+            <element signature="e#1647#1648#0" expanded="true" />
+            <element signature="e#1679#1680#0" expanded="true" />
+            <element signature="e#1721#1722#0" expanded="true" />
+            <element signature="e#1754#1755#0" expanded="true" />
+            <element signature="e#1793#1794#0" expanded="true" />
+            <element signature="e#1861#1862#0" expanded="true" />
+            <element signature="e#1896#1897#0" expanded="true" />
+            <element signature="e#1924#1925#0" expanded="true" />
+            <element signature="e#2051#2052#0" expanded="true" />
+            <element signature="e#2081#2082#0" expanded="true" />
+            <element signature="e#2334#2335#0" expanded="true" />
+            <element signature="e#2375#2376#0" expanded="true" />
+            <element signature="e#2426#2427#0" expanded="true" />
+            <element signature="e#2469#2470#0" expanded="true" />
+            <element signature="e#2723#2724#0" expanded="true" />
+            <element signature="e#2756#2757#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/intive/patronage/pages/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#1203#1204#0" expanded="true" />
+            <element signature="e#1250#1251#0" expanded="true" />
+            <element signature="e#1299#1300#0" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+            <element signature="e#1676#1677#0" expanded="true" />
+            <element signature="e#1728#1729#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/intive/patronage/Steps/SendToAFriendStep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+        <state relative-caret-position="177">
+          <caret line="78" column="51" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2696#2697#0" expanded="true" />
+            <element signature="e#2720#2721#0" expanded="true" />
+            <element signature="e#3154#3155#0" expanded="true" />
+            <element signature="e#3178#3179#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -11,6 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import javax.naming.Name;
 import java.util.List;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -38,29 +39,54 @@ public class MainPage2 {
     @FindBy(how = How.XPATH,using = "//*[@id=\"center_column\"]/ul/li/div/div[2]/div[2]/a[2]")
     public WebElement more;
 
+    @FindBy(how = How.ID, using = "send_friend_button")
+    public WebElement friend;
+
+    @FindBy(how = How.NAME, using = "friend_name")
+    public WebElement friendName;
+
+    @FindBy(how = How.NAME, using = "friend_email")
+    public WebElement friendEmail;
+
+    @FindBy(how = How.ID, using = "sendEmail")
+    public WebElement sendEmail;
+
+    @FindBy(how = How.XPATH, using = "//*[@id=\"product\"]/div[2]/div/div/div/p[1]")
+    public WebElement ResultSuccessfully;
+
     public MainPage2(final WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
-
     }
     public void openAutomationPage() {
         driver.get(Automation_URL);
     }
-
     public void clickDressesButton() {
         sfwithul.click();
     }
-
     public void clicksEveningDresses() {
         replace2x.click();
     }
-
     public void focusOnThePicture() {
         new Actions(driver).moveToElement(picture).perform();
     }
     public void userClicksMore() {
         more.click();
     }
-
+    public void ClicksSendToAFriend() {
+        friend.click();
+    }
+    public void WriteNameOfYourFriend(String asia) {
+        friendName.sendKeys(asia);
+    }
+    public void WriteEmailAddressOfYourFriend(String email) {
+        friendEmail.sendKeys(email);
+    }
+    public void clickSendButton() {
+        sendEmail.click();
+    }
+    public void verifyIfResultIsSuccessfully() {
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.textToBePresentInElement(ResultSuccessfully, "Your e-mail has been sent successfully"));
+    }
 }
-

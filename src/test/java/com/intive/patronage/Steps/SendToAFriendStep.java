@@ -56,29 +56,25 @@ public class SendToAFriendStep extends DriverFactory {
 //        mainPage2.clicksEveningDreseses();
 //        String actualURL = driver.getCurrentUrl();
 //        assertThat("User should be on Automation Practice page", actualURL.equals("//*[@id=\"center_column\"]/ul/li/div/div[2]/div[2]/a[2]"));
-
-
     }
 
     @And("^User clicks Send to a friend$")
     public void userClicksSendToAFriend() {
+        mainPage2.ClicksSendToAFriend();
     }
 
-    @And("^User enters Name of his/her friend Asia$")
-    public void userEntersNameOfHisHerFriendAsia() {
-    }
-
-    @And("^User enters e-mail address of his/her friend asha7788@gmail.com$")
-    public void userEntersEMailAddressOfHisHerFriendAshaGmailCom(int arg0) {
+    @And("^User enters Name of his/her friend Asia and E-mail address of his/her friend asha7788@gmail.com$")
+    public void userEntersNameOfHisHerFriendAsiaAndEMailAddressOfHisHerFriendAshaGmailCom() {
+        mainPage2.WriteNameOfYourFriend("Asia");
+        mainPage2.WriteEmailAddressOfYourFriend("asha7788@gmail.com");
     }
 
     @And("^User clicks Send button$")
     public void userClicksSendButton() {
+        mainPage2.clickSendButton();
     }
 
     @Then("^User should see the confirmation on the Website$")
     public void userShouldSeeTheConfirmationOnTheWebsite() {
-
-    }
-
-    }
+        mainPage2.verifyIfResultIsSuccessfully(); }
+}

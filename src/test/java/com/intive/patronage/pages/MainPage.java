@@ -41,26 +41,22 @@ public class MainPage {
     public void sendKeyEnterToNewsletterField(){
         newsletterInput.sendKeys(Keys.ENTER);
     }
-    public void verifyIfPositiveResultsAreVisible(/* String message*/) {
-        assertThat("user should have positive verification",
-                driver.findElements(By.className("alert-success")).size() != 0 );
-
-//        assertThat("user should have positive verification",
-//                newsletterAlertSuccess.getText().equals("NewsLetter: email is added to ..."));
+    public void verifyIfPositiveResultsAreVisible() {
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.textToBePresentInElement(newsletterAlertSuccess, "Newsletter : You have successfully subscribed to this newsletter."));
      }
 
-//  public void checkResultPopUp (String arg0) {
-//        WebDriverWait wait = new WebDriverWait(driver,timeOutInSeconds: 5)
-//        wait.until (ExpectedConditions.textToBePresentInElement(AlertResult, arg0));
-
-    public void verifyIfNegativeResultsAreVisible() {
-        assertThat("user should have negative verification",
-                driver.findElements(By.className("alert-danger")).size() != 0);
-    }
-
     public void leaveEmptyNewsletterField() {
-
-
+        newsletterInput.sendKeys(Keys.ENTER);
     }
 
+    public void verifyIfEmailIsAlreadyRegistered() {
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.textToBePresentInElement(newsletterAlertFailed, "Newsletter : This email address is already registered."));
+    }
+
+    public void verifyIfEmailIsInvalid() {
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.textToBePresentInElement(newsletterAlertFailed, "Newsletter : Invalid email address."));
+    }
 }

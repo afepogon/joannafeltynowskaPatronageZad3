@@ -32,7 +32,7 @@ public class NewsletterStep extends DriverFactory {
 
     @Then("^User should see a prompt that this e-mail address was already registered$")
     public void userShouldSeeAPromptThatThisEMailAddressWasAlreadyRegistered() {
-        mainPage.verifyIfNegativeResultsAreVisible();
+        mainPage.verifyIfEmailIsAlreadyRegistered();
     }
 
     @When("^User enters his or her wrong e-mail address asha7788gmail.com$")
@@ -42,7 +42,7 @@ public class NewsletterStep extends DriverFactory {
 
     @Then("^User should see a prompt that this e-mail address is invalid$")
     public void userShouldSeeAPromptThatThisEMailAddressIsInvalid() {
-
+        mainPage.verifyIfEmailIsInvalid();
     }
 
     @When("^User doesn't enter his/her e-mail address$")
