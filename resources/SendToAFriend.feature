@@ -11,7 +11,6 @@ Feature: As a user I want to be able to send to my friend an information about t
     And User clicks Send button
     Then User should see the confirmation on the Website
 
-
   Scenario: Another attempt to sending an information about selected dress by entering (the same) friend's e-mail address
     Given User is on the main page in section Dresses
     When User clicks Dresses
@@ -22,7 +21,6 @@ Feature: As a user I want to be able to send to my friend an information about t
     And User enters Name of his/her friend Asia and E-mail address of his/her friend asha7788@gmail.com
     And User clicks Send button
     Then User should see the confirmation on the Website
-
 
   Scenario: Sending an information about selected dress by entering friend's e-mail address
     Given User is on the main page in section Dresses
@@ -35,7 +33,6 @@ Feature: As a user I want to be able to send to my friend an information about t
     And User clicks Send button
     Then User should see the confirmation on the Website
 
-
   Scenario: Sending an information about selected dress by entering friend's e-mail address
     Given User is on the main page in section Dresses
     When User clicks Dresses
@@ -46,7 +43,6 @@ Feature: As a user I want to be able to send to my friend an information about t
     And User enters wrong Name of his/her friend A! and E-mail address of his/her friend asha7788@gmail.com
     And User clicks Send button
     Then User should see the confirmation on the Website
-
 
   Scenario: Sending an information about selected dress by entering friend's e-mail address
     Given User is on the main page in section Dresses
@@ -59,7 +55,6 @@ Feature: As a user I want to be able to send to my friend an information about t
     And User clicks Send button
     Then User should see the confirmation on the Website
 
-
   Scenario: Sending an information about selected dress by entering friend's e-mail address
     Given User is on the main page in section Dresses
     When User clicks Dresses
@@ -71,7 +66,6 @@ Feature: As a user I want to be able to send to my friend an information about t
     And User clicks Send button
     Then User should see a prompt that he/she didn't fill required fields
 
-
   Scenario: Sending an information about selected dress by entering friend's e-mail address
     Given User is on the main page in section Dresses
     When User clicks Dresses
@@ -82,7 +76,6 @@ Feature: As a user I want to be able to send to my friend an information about t
     And User enters Name of his/her friend Asia but doesn't enter E-mail address of his/her friend
     And User clicks Send button
     Then User should see a prompt that he/she didn't fill required fields
-
 
   Scenario: Sending an information about selected dress by entering friend's e-mail address
     Given User is on the main page in section Dresses
