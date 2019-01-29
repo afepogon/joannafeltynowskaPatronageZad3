@@ -36,7 +36,7 @@ public class MainPage2 {
     @FindBy(how = How.XPATH, using = "//*[@id=\"center_column\"]/ul/li/div/div[1]/div/a[1]/img")
     public WebElement picture;
 
-    @FindBy(how = How.XPATH,using = "//*[@id=\"center_column\"]/ul/li/div/div[2]/div[2]/a[2]")
+    @FindBy(how = How.XPATH, using = "//*[@id=\"center_column\"]/ul/li/div/div[2]/div[2]/a[2]")
     public WebElement more;
 
     @FindBy(how = How.ID, using = "send_friend_button")
@@ -54,39 +54,73 @@ public class MainPage2 {
     @FindBy(how = How.XPATH, using = "//*[@id=\"product\"]/div[2]/div/div/div/p[1]")
     public WebElement ResultSuccessfully;
 
+    @FindBy(how = How.XPATH, using = "//*[@id=\"send_friend_form_error\"]")
+    public WebElement RequiredFields;
+
     public MainPage2(final WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }
+
     public void openAutomationPage() {
         driver.get(Automation_URL);
     }
+
     public void clickDressesButton() {
         sfwithul.click();
     }
+
     public void clicksEveningDresses() {
         replace2x.click();
     }
+
     public void focusOnThePicture() {
         new Actions(driver).moveToElement(picture).perform();
     }
+
     public void userClicksMore() {
         more.click();
     }
+
     public void ClicksSendToAFriend() {
         friend.click();
     }
+
     public void WriteNameOfYourFriend(String asia) {
         friendName.sendKeys(asia);
     }
+
     public void WriteEmailAddressOfYourFriend(String email) {
         friendEmail.sendKeys(email);
     }
+
     public void clickSendButton() {
         sendEmail.click();
     }
+
     public void verifyIfResultIsSuccessfully() {
         WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.textToBePresentInElement(ResultSuccessfully, "Your e-mail has been sent successfully"));
+    }
+
+    public void WriteWrongEmailAddressOfYourFriend(String email) {
+        friendEmail.sendKeys(email);
+    }
+
+    public void WriteWrongNameOfYourFriend(String asia) {
+        friendName.sendKeys(asia);
+    }
+
+    public void leaveEmptyFriendName() {
+        friendName.sendKeys(Keys.ENTER);
+    }
+
+    public void verifyIfRequiredFieldsAreEmpty() {
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.textToBePresentInElement(RequiredFields, "You did not fill required fields"));
+    }
+
+    public void leaveEmptyEmailAddressOfYourFriend() {
+        friendEmail.sendKeys(Keys.ENTER);
     }
 }

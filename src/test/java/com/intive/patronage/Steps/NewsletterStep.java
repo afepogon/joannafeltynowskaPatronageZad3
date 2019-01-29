@@ -48,6 +48,5 @@ public class NewsletterStep extends DriverFactory {
     @When("^User doesn't enter his/her e-mail address$")
     public void userDoesnTEnterHisHerEMailAddress() {
         mainPage.leaveEmptyNewsletterField();
-
     }
 }

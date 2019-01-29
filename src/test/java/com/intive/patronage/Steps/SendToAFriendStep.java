@@ -76,5 +76,47 @@ public class SendToAFriendStep extends DriverFactory {
 
     @Then("^User should see the confirmation on the Website$")
     public void userShouldSeeTheConfirmationOnTheWebsite() {
-        mainPage2.verifyIfResultIsSuccessfully(); }
+        mainPage2.verifyIfResultIsSuccessfully();
+    }
+
+    @And("^User enters Name of his/her friend Asia and wrong E-mail address of his/her friend asha7788gmail.com$")
+    public void userEntersNameOfHisHerFriendAsiaAndWrongEMailAddressOfHisHerFriendAsha7788GmailCom() {
+        mainPage2.WriteNameOfYourFriend("Asia");
+        mainPage2.WriteWrongEmailAddressOfYourFriend("asha7788gmail.com");
+    }
+
+    @And("^User enters wrong Name of his/her friend A! and E-mail address of his/her friend asha7788@gmail.com$")
+    public void userEntersWrongNameOfHisHerFriendAsiaAndEMailAddressOfHisHerFriendAsha7788GmailCom() {
+        mainPage2.WriteWrongNameOfYourFriend("A!");
+        mainPage2.WriteEmailAddressOfYourFriend("asha7788@gmail.com");
+    }
+
+    @And("^User enters wrong Name of his/her friend A! and wrong E-mail address of his/her friend asha7788gmail.com$")
+    public void userEntersWrongNameOfHisHerFriendAAndWrongEMailAddressOfHisHerFriendAshaGmailCom() {
+        mainPage2.WriteWrongNameOfYourFriend("A!");
+        mainPage2.WriteWrongEmailAddressOfYourFriend("asha7788gmail.com");
+    }
+
+    @And("^User doesn't enter Name of his/her friend but enters E-mail address of his/her friend asha7788@gmail.com$")
+    public void userDoesnTEnterNameOfHisHerFriendButEntersEMailAddressOfHisHerFriendAshaGmailCom() {
+        mainPage2.leaveEmptyFriendName();
+        mainPage2.WriteEmailAddressOfYourFriend("asha7788@gmail.com");
+    }
+
+    @Then("^User should see a prompt that he/she didn't fill required fields$")
+    public void userShouldSeeAPromptThatHeSheDidnTFillRequiredFields() {
+        mainPage2.verifyIfRequiredFieldsAreEmpty();
+    }
+
+    @And("^User enters Name of his/her friend Asia but doesn't enter E-mail address of his/her friend$")
+    public void userEntersNameOfHisHerFriendAsiaButDoesnTEnterEMailAddressOfHisHerFriend() {
+        mainPage2.WriteNameOfYourFriend("Asia");
+        mainPage2.leaveEmptyEmailAddressOfYourFriend();
+    }
+
+    @And("^User doesn't enter Name and E-mail address of his/her friend$")
+    public void userDoesnTEnterNameAndEMailAddressOfHisHerFriend() {
+        mainPage2.leaveEmptyFriendName();
+        mainPage2.leaveEmptyEmailAddressOfYourFriend();
+    }
 }
