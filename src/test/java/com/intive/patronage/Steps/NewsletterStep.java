@@ -2,6 +2,7 @@ package com.intive.patronage.Steps;
 
 import com.intive.patronage.DriverFactory;
 import com.intive.patronage.pages.MainPage;
+import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;

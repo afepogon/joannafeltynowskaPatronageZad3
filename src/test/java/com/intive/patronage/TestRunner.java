@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "resources/SendToAFriend.feature"
+        features = "resources"
 )
 
 public class TestRunner {
